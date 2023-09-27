@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Poppins:wght@100;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .container_pd{
+    padding: 15px 5rem;
+  }
+  .container_pdd{
+    padding: 6rem;
+    margin: 3rem 6rem; 
+  }
+  /***********HEADER*************/
+  header .summer_sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #000000;
+    color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    height: 2rem;
+  }
+  header .summer_sale button{
+    font-weight: 600;
+    border: 1px;
+    background-color: inherit;
+    color: #FAFAFA;
+    border-bottom: 1px solid;
+  }
+  /***********NAV***************/
+  .your_shoppy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .your_shoppy h3{
+    font-weight: 600;
+  }
+  form {
+    display: flex;
+    width: 500px;
+  }
+  .your_shoppy form input {
+    background-color: #F5F5F5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    height: 20px;
+    padding: 1rem;
+  }
+  .your_shoppy form img{
+    height: 24px;
+  }
+  .your_shoppy .language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  /**********exclusive*********/
+  .exclusive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5rem;
+  }
+  .exclusive ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    list-style: none;
+  }
+  .exclusive ul .home{
+    border-bottom: 1px solid grey;
+  }
+  .exclusive_navlist li a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+    font-weight: 400;
+  }
+  /***********salescart*********/
+  .salescart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .salescart_img img{
+    width: 30px;
+    height: 30px;
+  }
+  /*************HER0-VOUCHER**********/
+.hero_voucher{
+  height: 380px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #FAFAFA;
+}
+.voucher_details_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.voucher_details .iphone{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.2rem;
+}
+.iphone img{
+  width: 35px;
+}
+.iphone small{
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.voucher_details h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 83.37px;
+}
+.voucher_details .shop p{
+  border-bottom: 1px solid #FAFAFA;
+}
+.voucher_details .shop img{
+  width: 1.5rem;
+}
+.voucher_image img{
+  width: 600px;
+  height: 350px;
+}
+.shop{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 1rem;
+  gap: 8px;
+}
+.slide_img img{
+  display: flex;
+  align-items: center;
+}
+.frame{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/*****************CLIENTS*************/
+.clients-logo .logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img{
+  width: 100px;
+  background-color: #FDFFFE;
+  border-radius: 5px;
+}
+/******************EXPLORE*************/
+.explore{
+  padding: 2rem 6rem;
+}
+.explore_details{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.explore_details h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.explore_details button{
+  color: #5AC0C0;
+  border: none;
+  background: none;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.explore_grid1{
+  display: grid;
+  grid-template-columns: auto 2fr; 
+  grid-gap: 1em;
+}
+.explore_grid2{
+  display: grid;
+  grid-template-columns: 2fr auto; 
+  grid-gap: 1rem;
+  margin-top: 1.4rem;
+}
+.grid1 img{
+  width: 400px;
+  height: 350px;
+}
+.grid2 img{
+  width: 750px;
+  height: 350px;
+}
+.grid_text{
+ position: absolute;
+ margin-top: -50px;
+}
+.grid_text p{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  bottom: 0.7rem;
+  left: 50px;
+}
+/****************best_selling**************/
+.best_selling{
+  padding: 3rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+}
+.best_details{
+  margin-bottom: 191px;
+  width: 170px;
+  height: 188px;
+}
+.best_details h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.best_details small{
+  color: #1E1E1E80;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.best_images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
