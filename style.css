@@ -656,5 +656,66 @@ footer{
     width: 230px;
     height: 350px;
 }
+.best_details{
+  margin-bottom: -50px;
+  width: 200px;
+  height: 250px;
+}
+.best_details h3{
+  font-size: 1.3rem;
+}
+.best_details p{
+  font-size: 0.9rem;
+  line-height: 20px;
+}
+button{
+  width: 85px;
+}
+.best_images img{
+  width: 120px;
+  height: 200px;
+  border-radius: 12px;
+}
+.discount{
+  padding: 2rem;
+  margin: 4rem;
+  height: 100px;
+  gap: 10rem;
+}
+.discount_details h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+ }
+ .featured_grid .grid1{
+  width: 200px;
+}
+.featured_grid .grid1 img{
+  width: 200px;
+}
+.featured_grid .grid2 img{
+  width: 400px;
+}
+.featured_grid .grid3 img{
+  width: 180px;
+}
+.featured_grid .grid4 img{
+  width: 180px;
+}
+.saved_flexbox img {
+  background-color: #EEEEEE;
+  padding: 3rem;
+  border-radius: 6.31px;
+  width: 150px;
+  height: 150px;
+}
+.flexitem img{
+  margin-right: 1rem;
+  color: #EEEEEE;
+  width: 130px;
+}
+.footer_copy p{
+  font-size: 13px;
+}
 }
 /**margin values=top,right,bottom,left/clockwise*/
