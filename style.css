@@ -373,7 +373,7 @@
 }
 .featured_grid .grid1 img{
   height: 600px;
-  width: 570px;
+  width: 500px;
 }
 .featured_grid .grid2{
   grid-column: 2/4;
@@ -393,7 +393,7 @@
 .featured_grid .grd_text{
   color: #FAFAFA;
   margin: 1.5rem;
-  margin-top: -130px;
+  margin-top: -110px;
 }
 .featured_grid p{
   text-transform: capitalize; 
@@ -557,6 +557,104 @@ footer{
   color: #AB4E1A;
  margin-bottom: 45px;
 }
-/***megia queries***/
-
+/***responsiveness***/
+@media (max-width: 1024px){
+  .hero_voucher{
+    height: 350px;
+  }
+  .iphone small{
+    font-size: 1rem;
+  }
+  .iphone img{
+    width: 30px;
+  }
+  .voucher_details_image{
+    gap: 2rem;
+  }
+  .voucher_details h1{
+    line-height: 50px;
+    font-size: 2rem;
+  }
+  .voucher_image img{
+    width: 550px;
+    height: 250px;
+  }
+  .grid1 img{
+  width: 350px;
+  height: 350px;
+}
+.grid2 img{
+  width: 550px;
+  height: 350px;
+}
+.discount{
+  gap: 10rem;
+}
+.featured_grid .grid1{
+  width: 300px;
+}
+.featured_grid .grid1 img{
+  width: 300px;
+}
+.featured_grid .grid3 img{
+  width: 240px;
+}
+.featured_grid .grid4 img{
+  width: 240px;
+}
+.featured_grid .grd_text{
+  color: #FAFAFA;
+  margin: 1.5rem;
+  margin-top: -108px;
+}
+.saved_flexbox img {
+  width: 210px;
+  height: 180px;
+}
+.footerlist p{
+  font-size: 12px;
+}
+}
+@media (max-width: 768px) {
+  .container_pd{
+    padding: 10px 3rem;
+  }
+   form {
+    display: flex;
+    width: 350px;
+  }
+  .exclusive{
+    padding: 5px 3rem;
+  }
+  .exclusive ul{
+    gap: 1rem;
+  }
+   .hero_voucher{
+    height: 300px;
+  }
+  .voucher_details_image{
+    gap: 1rem;
+  }
+  .voucher_details h1{
+    line-height: 40px;
+    font-size: 1.7rem;
+  }
+   .iphone small{
+    font-size: 0.8rem;
+  }
+   .voucher_image img{
+    width: 350px;
+    height: 200px;
+  }
+.voucher_details .shop p{
+  font-size: 1rem;
+}
+.explore{
+  padding: 1rem 4rem;
+}
+.grid1 img {
+    width: 230px;
+    height: 350px;
+}
+}
 /**margin values=top,right,bottom,left/clockwise*/
