@@ -15,7 +15,7 @@
   }
   .container_pdd{
     padding: 2rem;
-    margin: 4rem 6rem; 
+    margin: 2rem 2rem; 
   }
   /***********HEADER*************/
   header .summer_sale{
@@ -552,13 +552,13 @@ body {
 }
 .container_pdd{
   padding: 1rem;
-  margin: 1.5rem 1.8rem; 
+  margin: 2rem 4rem; 
 }
   header .summer_sale {
  flex-direction: column;
     gap: 0.2rem;
     font-size: 65%;
-    height: 2.5rem;
+    height: 3rem;
 }
 
 .your_shoppy form {
@@ -716,13 +716,9 @@ flex-direction: column;
   .container_pd {
     padding: 10px 1.2rem;
 }
-.container_dd{
-  padding: 1rem;
-  margin: 1.5rem 1.8rem; 
-}
-
-header .summer_sale {
-  font-size: 0.7rem;
+.container_pdd{
+  padding: 10px 1.2rem;
+  margin: 0;
 }
 
 .your_shoppy form {
@@ -754,10 +750,6 @@ header .summer_sale {
 
 .voucher_details {
     margin-left: 3rem;
-}
-
-.iphone img {
-    width: 20px;
 }
 
 .iphone small {
@@ -826,7 +818,6 @@ header .summer_sale {
 button {
     font-size: 0.7em;
     width: 110px;
-    height: 35px;
 }
 
 .featured_flex {
@@ -885,7 +876,6 @@ button {
 
   header .summer_sale {
     font-size: 0.8rem;
-    height: 2.5rem;
 }
 
   .container_pd {
@@ -898,11 +888,6 @@ form {
 
 .exclusive {
   padding: 5px 2rem;
-}
-
-.container_pdd {
-  padding: 2rem;
-  margin: 3rem 6rem;
 }
 
 .hero_voucher {
@@ -930,7 +915,6 @@ form {
   
 .voucher_image img {
   width: 370px;
-  height: 280px;
 }
 
 .voucher_details .shop p {
@@ -966,12 +950,6 @@ form {
 .best_images img {
   width: 200px;
   height: 300px;
-}
-
-.discount {
-  padding: 2.5rem;
-  margin: 2rem;
-  gap: 3rem;
 }
 
 .featured {
@@ -1012,25 +990,7 @@ form {
 }
 
 .iphone img {
-  width: 40px;
-}
-
-.iphone small {
-  font-size: 1.2rem;
-}
-
-.voucher_details h1 {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.voucher_image img {
-  width: 600px;
-  height: 300px;
-}
-
-.discount {
-  gap: 5rem;
+  width: 30px;
 }
 
 .featuredflex2 .flex_2 img {
