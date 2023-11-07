@@ -59,7 +59,8 @@
     padding: 1rem;
   }
   .your_shoppy form img{
-    height: 24px;
+    height: 20px;
+    margin-top: 5px;
   }
   .your_shoppy .language{
     display: flex;
@@ -160,7 +161,7 @@
 .voucher_image img{
   width: 600px;
   height: 349px;
-  margin-right: rem;
+  margin-right: 5rem;
 }
 .slide_img img{
   display: flex;
@@ -203,34 +204,25 @@
   margin-top: 1rem;
   font-weight: 500;
 }
-.explore_grid1{
-  display: grid;
-  grid-template-columns: auto 2fr; 
-  grid-gap: 1em;
+.exploreFlex1{
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
 }
-.explore_grid2{
-  display: grid;
-  grid-template-columns: 2fr auto; 
-  grid-gap: 1rem;
-  margin-top: 1.4rem;
+.exploreFlex2{
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
 }
-.grid1 img{
-  width: 400px;
-  height: 350px;
-}
-.grid2 img{
-  width: 750px;
-  height: 350px;
-}
-.grid_text{
+.flex_text{
  position: absolute;
  margin-top: -50px;
 }
-.grid_text p{
+.flex_text p{
   font-weight: 500;
   font-size: 1.3rem;
   color: #FFFFFF;
-  margin: 0 50px 200px 50px;
+  margin-left: 80px;
 }
 /****************best_selling**************/
 .best_selling{
@@ -269,7 +261,7 @@
   justify-content: center;
   gap: 2rem;
 }
- button{
+ .best_btn button{
   border: none;
   border-radius: 6px;
   font-size: 0.8em;
@@ -330,6 +322,7 @@
   color: #FFFFFF;
   background-color: #1E1E1E;
   border-radius: 5px;
+  padding: 7px 18px;
 }
 /************Featured**********/
 .featured{
@@ -358,54 +351,45 @@
  font-size: 36px;
  margin-top: 15px;
 }
-.featured_grid{
-  display: grid;
-  margin-top: 30px;
-  grid-template-columns: auto;
-  grid-gap: 30px;
+.featured_flex{
+  display: flex;
+  gap: 2rem;
 }
-.featured_grid img{
-  background-color: black;
-  border-radius: 5px;
+.featured_flex img{
+  background-color: #000000;
+  border-radius: 3px;
 }
-.featured_grid .grid1{
-  grid-row: 1/4;
-}
-.featured_grid .grid1 img{
-  height: 600px;
+.featuredflex2 .flex_2 img{
   width: 500px;
+  height: 280px;
+
 }
-.featured_grid .grid2{
-  grid-column: 2/4;
+.featuredflex3{
+  display: flex;
+  gap: 2rem;
 }
-.featured_grid .grid2 img{
-  width: 570px;
-  height: 293px;
+.featuredflex3 img{
+  padding: 30px;
+  background-color: #242020;
+  height: 200px;
+  width: 235px;
 }
-.featured_grid .grid3 img{
-  width: 270px;
-  height: 270px;
-}
-.featured_grid .grid4 img{
-  width: 270px;
-  height: 270px;
-}
-.featured_grid .grd_text{
+.featured_flex .flextext{
   color: #FAFAFA;
   margin: 1.5rem;
   margin-top: -110px;
 }
-.featured_grid p{
+.featured_flex p{
   text-transform: capitalize; 
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
 }
-.featured_grid small{
+.featured_flex small{
   font-weight: 400;
   font-size: 10px;
 }
-.grd_text .cta{
+.flextext .cta{
   background: transparent;
   color: #FFFFFF;
   border-bottom: 1px solid #FAFAFA; 
@@ -455,42 +439,38 @@
 .saved_flexbox small{
   color: #606060;
 }
-.cart_btn button{
-  display: flex;
-  background-color: inherit;
-  color: #2283DC;
-  border: 1px solid #DEE2E7;
-  width: 164.7px;
-  height: 44.17px;
-  margin-top: 5px;
-}
-.cart_btn img{
-  width: 19.27px;
-  height: 9.27px;
+.cart_btn button {
+  background-color: transparent;
+  outline: none;
+  border: 0.5px solid #C1DCDC;
+  border-radius: 4px;
+  padding: 6px 18px;
+  color: #02A0A0;
 }
 /*******************************/
 footer{
   background-color: #000000;
   color: #fafafa;
 }
-.footer_details1{
+.footer_details{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: start;
-  gap: 12rem;
-  margin: 3rem 6rem;
+  gap: 20rem;
+  padding: 2rem;
+  margin-left: 4rem;
 }
-.footer_details1 img{
-  width: 59.5px;
-  height: 40px;
-  margin-right: 20px;
-  margin-top: 15px;
+.footer_details img{
+  width: 50px;
+  height: 35px;
 }
-.flex1{
+.flex_itemA{
   display: flex;
+  gap: 1rem;
 }
-.flex2{
+.flex_itemB{
   display: flex;
+  gap: 1rem;
 }
 .hrline{
   border: 1px solid #FFFFFF;
@@ -543,11 +523,11 @@ footer{
 }
 .trail_p_img p{
   font-size: 10px;
-  line-height: 30px;
 }
 .trail_img{
   display: flex;
   gap: 10px;
+  margin-top: 10px;
 }
 .trail_img img{
   width: 35px;
@@ -557,165 +537,511 @@ footer{
   color: #AB4E1A;
  margin-bottom: 45px;
 }
-/***responsiveness***/
-@media (max-width: 1024px){
-  .hero_voucher{
-    height: 350px;
-  }
-  .iphone small{
-    font-size: 1rem;
-  }
-  .iphone img{
-    width: 30px;
-  }
-  .voucher_details_image{
-    gap: 2rem;
-  }
-  .voucher_details h1{
-    line-height: 50px;
-    font-size: 2rem;
-  }
-  .voucher_image img{
-    width: 550px;
-    height: 250px;
-  }
-  .grid1 img{
-  width: 350px;
-  height: 350px;
+
+
+/* Media Queries */
+@media (max-width:500px) {
+  /* html {
+    width: 100vw;
+  } */
+body {
+  width: 100%;
 }
-.grid2 img{
-  width: 550px;
-  height: 350px;
+  .container_pd {
+    padding: 15px 1.2rem;
 }
-.discount{
-  gap: 10rem;
+.container_pdd{
+  padding: 1rem;
+  margin: 1.5rem 1.8rem; 
 }
-.featured_grid .grid1{
-  width: 300px;
+  header .summer_sale {
+ flex-direction: column;
+    gap: 0.2rem;
+    font-size: 65%;
+    height: 2.5rem;
 }
-.featured_grid .grid1 img{
-  width: 300px;
+
+.your_shoppy form {
+display: none;
 }
-.featured_grid .grid3 img{
-  width: 240px;
+
+.exclusive {
+  padding: 5px 1.2rem;
+  display: none;
 }
-.featured_grid .grid4 img{
-  width: 240px;
+
+.your_shoppy form img {
+display: none;}
+
+.hero_voucher {
+  height: auto;
 }
-.featured_grid .grd_text{
-  color: #FAFAFA;
-  margin: 1.5rem;
-  margin-top: -108px;
+
+.voucher_details_image {
+flex-direction: column;
+  gap: 2rem;
 }
-.saved_flexbox img {
-  width: 210px;
-  height: 180px;
+
+.voucher_image img {
+  width: 450px;
+  height: 300px;
 }
-.footerlist p{
-  font-size: 12px;
+
+.voucher_details {
+  margin-left: 0rem;
 }
+
+.voucher_details h1 {
+  font-size: 2.2rem;
+  line-height: 1.5;
 }
-@media (max-width: 768px) {
-  .container_pd{
-    padding: 10px 3rem;
-  }
-   form {
-    display: flex;
-    width: 350px;
-  }
-  .exclusive{
-    padding: 5px 3rem;
-  }
-  .exclusive ul{
-    gap: 1rem;
-  }
-   .hero_voucher{
-    height: 300px;
-  }
-  .voucher_details_image{
-    gap: 1rem;
-  }
-  .voucher_details h1{
-    line-height: 40px;
-    font-size: 1.7rem;
-  }
-   .iphone small{
-    font-size: 0.8rem;
-  }
-   .voucher_image img{
-    width: 350px;
-    height: 200px;
-  }
-.voucher_details .shop p{
-  font-size: 1rem;
+
+.iphone img {
+  width: 40px;
+height: auto;}
+
+.clients-logo .logo {
+ flex-wrap: wrap;
+ padding: 0 1.5rem;
 }
-.explore{
-  padding: 1rem 4rem;
+
+.explore {
+  padding: 2rem 1.2rem;
 }
-.grid1 img {
-    width: 230px;
-    height: 350px;
+
+.exploreFlex1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr)
 }
-.best_details{
-  margin-bottom: -50px;
-  width: 200px;
-  height: 250px;
+
+.exploreFlex2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr)
 }
-.best_details h3{
-  font-size: 1.3rem;
-}
-.best_details p{
-  font-size: 0.9rem;
-  line-height: 20px;
-}
-button{
-  width: 85px;
-}
-.best_images img{
-  width: 120px;
-  height: 200px;
-  border-radius: 12px;
-}
-.discount{
-  padding: 2rem;
-  margin: 4rem;
-  height: 100px;
-  gap: 10rem;
-}
-.discount_details h3{
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
- }
- .featured_grid .grid1{
-  width: 200px;
-}
-.featured_grid .grid1 img{
-  width: 200px;
-}
-.featured_grid .grid2 img{
+
+.flexB{
   width: 400px;
+  border-radius: 5px;
 }
-.featured_grid .grid3 img{
-  width: 180px;
+
+.flexC{
+  width: 400px;
+  border-radius: 5px;
 }
-.featured_grid .grid4 img{
-  width: 180px;
+
+.flex_text {
+height: max-content;  margin-top: -50px;
 }
+
+.best_selling {
+    padding: 1rem 1.2rem;
+flex-direction: column;
+    gap: 1.7rem;
+}
+
+.best_details {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.best_details p {
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.best_images {
+flex-direction: column;
+}
+
+.best_images p:first-of-type {
+   margin-top: 14px;
+}
+.best_images p:last-of-type {
+   margin-top: 9px;
+}
+
+.discount {
+    padding: 1.2rem;
+    margin: 1.5rem;
+   flex-direction: column;
+   display: flex;
+    gap: 1rem;
+}
+
+.featured {
+  padding: 2rem 1.2rem;
+}
+
+.featured_flex {
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 20px;
+}
+
+.saved {
+  background-color: #FFFFFF;
+  padding: 1.5rem 1.2rem;
+}
+
+.saved_flexbox {
+flex-direction: column;
+  gap: 5px;
+}
+
+.footer_details {
+flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 1.3rem;
+}
+
+.footerlist {
+  grid-template-columns: repeat(1,1fr);
+  margin: 1rem 1.3rem;
+}
+
+.trailshoppy {
+  margin: 1rem 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media (max-width:768px) {
+
+  body {
+  width: 100%;
+}
+  .container_pd {
+    padding: 10px 1.2rem;
+}
+.container_dd{
+  padding: 1rem;
+  margin: 1.5rem 1.8rem; 
+}
+
+header .summer_sale {
+  font-size: 0.7rem;
+}
+
+.your_shoppy form {
+  width: 45%;
+}
+
+.exclusive {
+  padding: 5px 1.2rem;
+}
+
+.exclusive ul {
+    display: none;
+}
+
+.container_pdd {
+    padding: 1rem;
+    margin: 2rem 1.2rem;
+}
+
+.hero_voucher {
+  height: 430px;
+}
+
+.voucher_image img {
+  width: 310px;
+  height: 200px;
+  margin-right: 2px;
+}
+
+.voucher_details {
+    margin-left: 3rem;
+}
+
+.iphone img {
+    width: 20px;
+}
+
+.iphone small {
+    font-size: 0.7rem;
+}
+
+.voucher_details h1 {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.voucher_details .shop p {
+  font-size: 1rem;
+}
+
+.explore {
+    padding: 2rem 1.2rem;
+}
+
+.exploreFlex1{
+  flex-direction: column;
+}
+.exploreFlex2{
+  flex-direction: column;
+}
+
+.best_selling {
+    padding: 2rem 1.2rem;
+    flex-direction: column;
+}
+
+.best_details {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.best_details p {
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.best_images {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.discount {
+    padding: 1.2rem;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+.discount_details h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.discount_details small {
+  font-size: 0.7rem;
+}
+
+button {
+    font-size: 0.7em;
+    width: 110px;
+    height: 35px;
+}
+
+.featured_flex {
+  flex-direction: column;
+    gap: 5px;
+}
+
+.featuredflex3 {
+  margin-top: 5px;
+  gap: 8px;
+}
+.saved_flexbox {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
 .saved_flexbox img {
   background-color: #EEEEEE;
   padding: 3rem;
   border-radius: 6.31px;
-  width: 150px;
-  height: 150px;
+  width: 210px;
+  height: 235px;
 }
-.flexitem img{
-  margin-right: 1rem;
-  color: #EEEEEE;
-  width: 130px;
+
+.footer_details {
+    gap: 2rem;
+    padding: 1.2rem;
+    margin-left: 1rem;
 }
-.footer_copy p{
-  font-size: 13px;
+
+.footer_details img {
+    width: 50px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.footerlist {
+  grid-template-columns: repeat(2,1fr);
+  margin: 1rem 1.2rem;
+}
+
+.footerlist li{
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.trailshoppy {
+  margin: 1rem 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+@media (max-width:1024px) {
+
+  header .summer_sale {
+    font-size: 0.8rem;
+    height: 2.5rem;
+}
+
+  .container_pd {
+    padding: 5px 2rem;
+}
+
+form {
+  width: 450px;
+}
+
+.exclusive {
+  padding: 5px 2rem;
+}
+
+.container_pdd {
+  padding: 2rem;
+  margin: 3rem 6rem;
+}
+
+.hero_voucher {
+  height: 380px;
+}
+
+.voucher_details_image {
+  gap: 1rem;
+}
+
+  .iphone img {
+    width: 30px;
+}
+
+.iphone small {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.voucher_details h1 {
+    font-size: 2.2rem;
+    line-height: 1.4;
+}
+  
+.voucher_image img {
+  width: 370px;
+  height: 280px;
+}
+
+.voucher_details .shop p {
+  font-size: 1.2rem;
+}
+
+.explore {
+  padding: 3rem 2rem;
+}
+
+.explore_details h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.flexA{
+  width: 500px;
+}
+
+.best_selling {
+  padding: 3rem 2rem;;
+  gap: 1rem;
+}
+
+.best_btn button {
+  width: 105px;
+}
+
+.best_images {
+  gap: 0.5rem;
+}
+
+.best_images img {
+  width: 200px;
+  height: 300px;
+}
+
+.discount {
+  padding: 2.5rem;
+  margin: 2rem;
+  gap: 3rem;
+}
+
+.featured {
+  padding: 2rem 2rem;
+}
+
+.featured_flex {
+  gap: 1rem;
+}
+
+.featuredflex2 .flex_2 img {
+  height: 290px;
+  margin-bottom: 1rem;
+}
+
+.featuredflex3 {
+  gap: 1rem;
+}
+
+.saved {
+  padding: 3rem 2rem;
+}
+
+.saved_flexbox img {
+  width: 220px;
+  height: 200px;
 }
 }
+
+@media (max-width:1440px) {
+
+  .hero_voucher {
+     height: 500px; 
+}
+
+  .voucher_details_image {
+    gap: 1rem;
+}
+
+.iphone img {
+  width: 40px;
+}
+
+.iphone small {
+  font-size: 1.2rem;
+}
+
+.voucher_details h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.voucher_image img {
+  width: 600px;
+  height: 300px;
+}
+
+.discount {
+  gap: 5rem;
+}
+
+.featuredflex2 .flex_2 img {
+  height: 290px;
+  margin-bottom: 1rem;
+}
+
+.featuredflex3 {
+  gap: 1rem;
+}
+
+}
+/* Media Queries */
 /**margin values=top,right,bottom,left/clockwise*/

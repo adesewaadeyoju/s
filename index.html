@@ -8,7 +8,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Shoppy</title>
 </head>
-<body>
     <header>
         <div class="summer_sale">
             <p>Summer Sale For All Swim Suits And Free Express 
@@ -20,7 +19,7 @@
         <nav class="your_shoppy container_pd">
             <h3>YourShhopy</h3>
             <form action="form">
-                <input type="search" placeholder="What are you looking for?">
+                <input type="text" placeholder="What are you looking for?">
                 <img src="images/Component 2.png" alt="search">
             </form>
            <div class="language">
@@ -84,36 +83,34 @@
                 <h2>EXPLORE</h2>
                 <button>See All</button>
             </div>
-            <div class="grid">
-                <div class="explore_grid1">
-                    <div class="grid1">
+                <div class="exploreFlex1">
+                    <div class="flexA">
                         <img src="images/Rectangle 961.png" alt="fashion">
-                        <div class="grid_text">
+                        <div class="flex_text">
                             <p>Near By Fashion</p>
                         </div>
                     </div>
-                    <div class="grid2">
+                    <div class="flexB">
                         <img src="images/Rectangle 960.png" alt="electronics">
-                        <div class="grid_text">
+                        <div class="flex_text">
                             <p>Near By Electronics</p>
                         </div>
                     </div>
-                </div>
-                 <div class="explore_grid2">
-                        <div class="grid2">
-                            <img src="images/Rectangle 960 (1).png" alt="shop">
-                        <div class="grid_text">
-                            <p>Near By All Shops</p>
+                    </div>
+                        <div class="exploreFlex2">
+                            <div class="flexB">
+                                <img src="images/Rectangle 960 (1).png" alt="shop">
+                            <div class="flex_text">
+                                <p>Near By All Shops</p>
+                            </div>
+                        </div>
+                        <div class="flexA">
+                            <img src="images/Rectangle 960 (2).png" alt="furniture">
+                            <div class="flex_text">
+                                <p>Near By Furniture</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="grid1">
-                        <img src="images/Rectangle 960 (2).png" alt="furniture">
-                        <div class="grid_text">
-                            <p>Near By Furniture</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
     <section class="best_selling">
         <div class="best_details">
@@ -125,11 +122,10 @@
         </div>
         <div class="best_images">
             <div class="giorgio1">
-                <i class='bx bx-arrow-back'></i>
-                <img src="images/Rectangle 509.png" alt="trousers">
-                <p>Giorgio Armani</p>
-                <p>₹1250 <s>₹2190</s> <span>43% off</span></p>
-            </div>
+                    <img src="images/Rectangle 509.png" alt="trousers">
+                    <p>Giorgio Armani</p>
+                    <p>₹1250 <s>₹2190</s> <span>43% off</span></p>
+            </div>    
             <div class="giorgio2">
                 <img src="images/Rectangle 508.png" alt="merch">
                 <p>Giorgio Armani</p>
@@ -159,34 +155,40 @@
             </div>
             <h4>New Arrival</h4>
         </div>
-        <div class="featured_grid">
-            <div class="grid1">
+        <div class="featured_flex">
+            <div class="featuredflex1">
+                <div class="flex_1">
                 <img src="images/ps5-slim-goedkope-playstation_large 1.png" alt="PS4">
-                <div class="grd_text">
+                <div class="flextext">
                     <p>PlayStation 5</p>
                     <small>Black and White version of the PS5 <br> coming out on sale.</small>
                     <div class="cta">Shop Now</div>
                 </div>
             </div>
-            <div class="grid2">
+            </div>
+             <div class="featuredflex2">
+                <div class="flex_2">
                 <img src="images/attractive-woman-wearing-hat-posing-black-background 1.png" alt="">
-                <div class="grd_text">
+                <div class="flextext">
                     <p>Women's collections</p>
                     <small>Featured woman collections that <br> give you another vibe.</small>
                     <div class="cta">Shop Now</div>
                 </div>
             </div>
-            <div class="grid3">
+           <div class="featuredflex3">
+             <div class="flex_3">
                 <img src="images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png" alt="">
-                <div class="grd_text">
+                <div class="flextext">
                     <p>Speakers</p>
                     <small> Amazon wireless speakers.</small>
                     <div class="cta">Shop Now</div>
                 </div>
             </div>
-            <div class="grid4">
+            <div class="flex_4">
                 <img src="images/652e82cd70aa6522dd785109a455904c.png" alt="">
             </div>
+           </div>
+             </div>
         </div>
     </section>
     <section class="saved">
@@ -200,7 +202,7 @@
                     <p>$99.50</p>
                     <small>GoPro HERO6 4K Action <br>Camera - Black</small>
                     <div class="cart_btn">
-                        <button> <img src="images/cart.png" alt="">Move to cart</button>
+                        <button> <i class="bx bx-cart"></i> Move to cart</button>
                     </div>
                 </div>
                 <div class="flexitem2">
@@ -208,7 +210,7 @@
                     <p>$99.50</p>
                     <small>GoPro HERO6 4K Action <br>Camera - Black</small>
                     <div class="cart_btn">
-                        <button> <img src="images/cart.png" alt="">Move to cart</button>
+                        <button> Move to cart</button>
                     </div>
                 </div>
                 <div class="flexitem3">
@@ -216,7 +218,7 @@
                     <p>$99.50</p>
                     <small>GoPro HERO6 4K Action <br>Camera - Black</small>
                     <div class="cart_btn">
-                        <button><img src="images/cart.png" alt="">Move to cart</button>
+                        <button>Move to cart</button>
                     </div>
                 </div>
                 <div class="flexitem4">
@@ -224,7 +226,7 @@
                     <p>$99.50</p>
                     <small>GoPro HERO6 4K Action <br> Camera - Black</small>
                     <div class="cart_btn">
-                        <button> <img src="images/cart.png" alt=""> Move to cart</button>
+                        <button>Move to cart</button>
                     </div>
                 </div>
             </div>
@@ -232,21 +234,22 @@
     </section>
 </body>
 <footer>
-    <div class="footer_details1">
-        <div class="flex1">
+    <div class="footer_details">
+        <div class="flex_itemA">
                 <img src="images/people.png" alt="">
-            <div class="flex_text">
+            <div class="text">
                 <p>TS REFERRAL PROGRAM</p>
-                <small>Refer a friend: Give ₹250, get ₹250</sm>
-                <div class="flex_cta">Find out more</div>
+                <small>Refer a friend: Give ₹250, get ₹250</small>
+                <h6 class="flex_cta">Find out more</h6>
             </div>
         </div>
-        <div class="flex2">
+        <div class="flex_itemB">
                 <img src="images/truck.png" alt="">
-            <div class="flex_text">
+            <div class="text">
                 <p>FAST, SAFE, CONVENIENT DELIVERY</p>
+
                 <small>On All Order</small>
-                <div class="flex_cta">Find out more</div>
+                <h6 class="flex_cta">Find out more</h6>
             </div>
         </div>
     </div>
