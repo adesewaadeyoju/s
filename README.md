@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Shoppy" />
-
+  <img src="./.github/app.gif" alt="Shoppy"/>
+  
   &#xa0;
 
   <!-- <a href="https://shoppy.netlify.app">Demo</a> -->
@@ -59,11 +59,11 @@ This is a landing page for Shoppy, an e-commerce website.
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Html]
+
+- [Css]
+
+- [Responsiveness]
 
 ## :white_check_mark: Requirements ##
 
@@ -90,8 +90,6 @@ $ yarn start
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
 Made with :heart: by <a href="https://github.com/adesewaadeyoju" target="_blank">adesewaadeyoju</a>
 
 &#xa0;
