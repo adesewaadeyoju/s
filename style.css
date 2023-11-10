@@ -307,7 +307,7 @@
   display: flex;
   align-items: start;
   justify-content: start;
-  gap: 30rem;
+  gap: 10rem;
 }
 .discount_details h3{
  font-family: 'Inter', sans-serif;
@@ -360,7 +360,7 @@
   border-radius: 3px;
 }
 .featuredflex2 .flex_2 img{
-  width: 500px;
+  width: 100%;
   height: 280px;
 
 }
@@ -371,13 +371,13 @@
 .featuredflex3 img{
   padding: 30px;
   background-color: #242020;
-  height: 200px;
-  width: 235px;
+  height: 199px;
+  width: 250px;
 }
 .featured_flex .flextext{
   color: #FAFAFA;
   margin: 1.5rem;
-  margin-top: -110px;
+  margin-top: -130px;
 }
 .featured_flex p{
   text-transform: capitalize; 
@@ -652,7 +652,12 @@ flex-direction: column;
 }
 
 .best_images {
-flex-direction: column;
+  width: 100%;
+}
+
+.best_images img {
+  width: 100%;
+  margin: auto;
 }
 
 .best_images p:first-of-type {
@@ -680,9 +685,29 @@ flex-direction: column;
   grid-gap: 20px;
 }
 
+.featuredflex3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+}
+
+.featured_flex .flex_3,
+.featured_flex .flex_4 {
+  overflow: hidden;
+}
+
+.featuredflex3 img{
+  width: 100%;
+}
+
 .saved {
   background-color: #FFFFFF;
   padding: 1.5rem 1.2rem;
+}
+
+.saved_flexbox img {
+  width: 100%;
+  height: auto;
 }
 
 .saved_flexbox {
@@ -796,7 +821,12 @@ flex-direction: column;
 
 .best_images {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+}
+
+.best_images img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
 .discount {
@@ -826,20 +856,23 @@ button {
 }
 
 .featuredflex3 {
-  margin-top: 5px;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
+
+.featuredflex3 img {
+  height: 300px;
+  width: 100%;
+}
+
 .saved_flexbox {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
 }
 
 .saved_flexbox img {
-  background-color: #EEEEEE;
-  padding: 3rem;
-  border-radius: 6.31px;
-  width: 210px;
-  height: 235px;
+  width: 100%;
+  height: auto;
 }
 
 .footer_details {
@@ -947,11 +980,6 @@ form {
   gap: 0.5rem;
 }
 
-.best_images img {
-  width: 200px;
-  height: 300px;
-}
-
 .featured {
   padding: 2rem 2rem;
 }
@@ -967,16 +995,14 @@ form {
 
 .featuredflex3 {
   gap: 1rem;
+  height: 60%;
 }
 
 .saved {
   padding: 3rem 2rem;
 }
 
-.saved_flexbox img {
-  width: 220px;
-  height: 200px;
-}
+
 }
 
 @media (max-width:1440px) {
@@ -995,6 +1021,7 @@ form {
 
 .featuredflex2 .flex_2 img {
   height: 290px;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
